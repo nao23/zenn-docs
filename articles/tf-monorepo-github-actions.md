@@ -1,5 +1,5 @@
 ---
-title: GitHub Actions + Terraformモノレポ環境で変更ファイルに応じてディレクトリ毎にCIを実行する
+title: GitHub Actions + Terraformモノレポ環境で変更ファイルに応じてCIを実行する
 type: tech
 topics: ["githubactions", "terraform"]
 emoji: 🐈
@@ -7,7 +7,7 @@ published: false
 ---
 
 
-Terraform モノレポにおけるCIでは、PR作成/更新時などに変更対象のディレクトリでのみplanを実行させたいというニーズがあるかと思います。 本記事では、それを実現するための幾つかのやり方についてご紹介したいと思います。
+Terraform モノレポにおけるCIでは、PR作成/更新時などに変更したファイルに応じて対象のディレクトリでのみterraform planを実行させたいというニーズがあるかと思います。 本記事では、それを実現するための幾つかのやり方についてご紹介したいと思います。
   
 # 前提
 ここでは、以下のようなリポジトリ構成となっていることを想定します。
