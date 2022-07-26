@@ -3,7 +3,7 @@ title: Self-Hosting Renovate on GitHub ActionsでTerraform Providerを自動更�
 type: tech
 topics: ["renovate", "githubactions", "terraform"]
 emoji: 🛠
-published: false
+published: true
 ---
 
 Terraformのコードを管理するリポジトリでは、Terraform本体に加えて利用するProviderのバージョンなどを継続的にアップデートしていく必要があります。こういった依存関係の更新情報を日々チェックして手でコードを修正していくのはとても大変です。この作業を自動化してくれるツールは幾つかありますが、本記事ではRenovateのCLIをGitHub Actions上で定期実行し更新するやり方についてご紹介したいと思います。
