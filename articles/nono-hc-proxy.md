@@ -1,5 +1,5 @@
 ---
-title: サンドボックス内のAIエージェントからHerdrを安全に使わせたい
+title: サンドボックス内のAIエージェントにHerdrを安全に使わせたい
 type: tech
 topics: ["nono", "claudecode", "sandbox", "security", "herdr"]
 emoji: 🧱
